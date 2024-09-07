@@ -161,3 +161,70 @@
 #         else:
 #             print()
 # except EOFError:pass
+
+# dic = {'i':1,
+#        'v':5,
+#        'x':10,
+#        'l':50,
+#        'c':100,
+#        'd':500,
+#        'm':1000}
+# s="iv"
+# print(dic[s[1]])
+# print(len(s))
+# num=0
+# last_num=0
+# for i in range(len(s)):
+#     if dic[s[i]] <=last_num:
+#         num = num + dic[s[i]]
+#     else:
+#         num = num + dic[s[i]] - 2*last_num
+#     last_num = dic[s[i]]
+# print(num)
+
+# nums = [1,2,6,7,8]
+# target=9
+# dic = {}
+# for i in range(len(nums)):
+#     if target - nums[i] not in dic:
+#         dic[nums[i]] = i
+#     else:
+#         print( [dic[target -nums[i]],i] )
+
+# numlist=[1,2,5,7,8,9]
+# def numadder(numlist):
+#     if len(numlist) == 1:
+#         return numlist[0]
+#     else:
+#         return numlist[0] + numadder(numlist[1:])
+# print(numadder(numlist))
+# bj='name'
+# dict = {}
+# dict[bj]=1
+# print(dict)
+
+# print("{:-^30b}".format(123))
+# dict = {"小明":13,"小妹":10}
+# print(dict[0]) #字典不能通过整数索引
+
+# a = 1
+# b = 5
+# if a>b:max=a
+# print(max)
+
+
+# import numpy as np
+# s = np.array(10)
+# print(s)
+
+
+
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+# sum = 0
+# for i in range(2,21,2):
+#     sum+=factorial(i)
+# print(sum)
